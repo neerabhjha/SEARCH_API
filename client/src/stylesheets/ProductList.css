@@ -1,0 +1,23 @@
+.productList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.input-box {
+  margin: 30px;
+  padding: 8px 16px;
+  background-color: #bddbe4;
+  color: #070000;
+  font-size: 1rem;
+  border: 1px solid #5374d1;
+  border-radius: 4px;
+  width: 50%;
+}
+.input-box:focus {
+  outline: none;
+}
+.input-box::placeholder {
+  color: rgb(168, 177, 177);
+}
